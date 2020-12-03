@@ -1,0 +1,138 @@
+/* Navigasibar */
+	#navigasibar .wrapper .bar .item a{
+		color: rgb(99, 96, 97);
+	}
+	#navigasibar.scroll .wrapper .bar .item a{
+		color: rgb(255,255,255);
+	}
+/* Navigasibar */
+
+/*absen_wrapper*/
+	#absen_wrapper{
+		position: relative;
+		overflow-x: hidden;
+		overflow-y: hidden !important;
+		padding-top: 150px;
+	}
+
+	 #absen_wrapper .abs_tri{
+	 	position: absolute;
+	 	z-index: -1;
+	}
+
+	#absen_wrapper #absen_logo{
+		z-index: 1;
+		height: 80px;
+	    top: 60px;
+		left: 60px;
+	}
+
+	#absen_wrapper #absen_1{
+	 	background-color: rgba(222, 26, 25, .8);
+	 	width: 600px;
+	 	height: 600px;
+	 	transform: rotate(135deg);
+	    left: -350px;
+	    top: -300px;
+	}
+
+	#absen_wrapper #absen_2{
+	 	background-color: rgba(167, 167, 167, .8);
+	 	width: 200px;
+	 	height: 200px;
+	 	transform: rotate(135deg);
+	    right: -155px;
+	}
+
+	#absen_wrapper #absen_3{
+	 	background-color: rgba(229, 78, 79, .8);
+	 	width: 2600px;
+	 	height: 1200px;
+	 	transform: rotate(-135deg);
+	 	left: -1000px;
+	 	top: 1350px;
+	}
+
+	#absen_wrapper #absen_4{
+	 	background-color: rgba(73, 104, 166, .8);
+	 	width: 280px;
+	 	height: 280px;
+	 	transform: rotate(135deg);
+	 	top: 540px;
+	    right: -160px;
+	}
+
+	#absen_wrapper #absen_5{
+	 	background-color: rgba(99, 96, 97, .8);
+	 	width: 280px;
+	 	height: 280px;
+	 	transform: rotate(135deg);
+	    left: -150px;
+	    top: 575px;
+	}
+
+	#absen_wrapper #absen_6{
+	 	background-color: rgba(73, 104, 166, .8);
+	 	width: 260px;
+	 	height: 260px;
+	 	transform: rotate(135deg);
+	    right: -155px;
+	    bottom: 175px;
+	}
+/*absen_wrapper*/
+
+@media screen and (max-width: 736px) /*and (min-width: 528px)*/ { /* Mobile landscape */
+	/*absen_wrapper*/
+		#absen_wrapper{
+			padding-top: 60px;
+		}
+
+		#absen_wrapper #absen_logo{
+			height: 0px;
+		    top: 0px;
+			left: 0px;
+		}
+
+		#absen_wrapper #absen_1{
+		 	width: 220px;
+		 	height: 220px;
+		    left: -225px;
+		    top: 55px;
+		}
+
+		#absen_wrapper #absen_2{
+		 	width: 150px;
+		 	height: 150px;
+		    right: -145px;
+		}
+
+		#absen_wrapper #absen_3{
+		 	width: 2600px;
+		 	height: 1200px;
+		 	left: -800px;
+		 	top: unset;
+		 	bottom: -125px;
+		}
+
+		#absen_wrapper #absen_4{
+		 	width: 320px;
+		 	height: 320px;
+		 	top: 40px;
+		    right: -340px;
+		}
+
+		#absen_wrapper #absen_5{
+		 	width: 260px;
+		 	height: 260px;
+		    left: -280px;
+		    bottom: 75px;
+		}
+
+		#absen_wrapper #absen_6{
+		 	width: 260px;
+		 	height: 260px;
+		    right: -155px;
+		    bottom: 175px;
+		}
+	/*absen_wrapper*/
+}

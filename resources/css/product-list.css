@@ -1,0 +1,69 @@
+/* product */
+	#product{
+		padding: 100px 0;
+	}
+	#product h1{
+		color: rgb(74, 105, 167);
+	}
+	#product .bar{
+		margin: 50px .5%;
+		display: inline-grid;
+		width: 31%;
+	}
+	#product .bar #spacing{
+		padding: 0 10px;
+	}
+	#product .bar #spacing #show{
+		margin: 0 auto;
+		transform: rotate(45deg);
+		border: solid 5px rgb(219, 1, 2);
+		background-color: white;
+		overflow: hidden;
+		width: 175px;
+		height: 175px;
+		transition: all 1.56s;
+	}
+	#product .bar #spacing #show #img{
+		position: relative;
+		transform: rotate(-45deg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		top: -40px;
+	    left: -38px;
+		width: 250px;
+		height: 250px;
+		transition: all .56s;
+	}
+	#product .bar #spacing:hover #show #img{
+		transform: rotate(45deg);
+	}
+	#product .bar #spacing:hover #show h3{
+		transform: rotate(-90deg);
+	}
+	#product .bar #spacing #show h3{
+		padding: 0 20px;
+	    color: rgb(2, 27, 66);
+	    font-size: 24pt;
+		transition: all .56s;
+	}
+	#product .bar #spacing #show .tabs,
+	#product .bar #spacing #show .tabs .rows,
+	#product .bar #spacing #show .tabs .rows .cells{
+		width: 250px;
+		height: 250px;
+	}
+	#product .bar a{
+		text-decoration: none;
+	}
+/* product */
+
+@media screen and (max-width: 736px) /*and (min-width: 528px)*/ { /* Mobile landscape */
+	/*product*/
+		#product .bar{
+			margin: 120px auto;
+			display: block;
+			width: 100%;
+		}
+	/*product*/
+}
